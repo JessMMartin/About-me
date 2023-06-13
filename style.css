@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 8rem;}
+    
+h1 {
+    background: #40E0D0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    color: antiquewhite;
+}
+
+section{
+    font-size: 2rem;
+    color: antiquewhite;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+H2{
+    font-size: 2rem;
+}
+li{
+    font-size: 1.5rem;
+}
+.work{
+    color: lawngreen;}
+
+.Hey{
+    color: #40E0D0;
+}
+
+.goal{
+    color: #FF0080;
+}
+
+.Info{
+    color: #FF8C00;
+}   
