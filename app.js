@@ -79,17 +79,18 @@ for (let i = 2; i >= 0; i--) {
     break;
   }
 }
-var myArr = ["coke", "lilt", "fanta"];
-console.log(myArr)
+const myArr = ["coke", "lilt", "fanta"];
+console.log(myArr);
 
 for (let i = 5; i >= 0; i--) {
   let guesses = i + 1;
   let guess = prompt("Can you guess one of my fave fizzy drinks?" + guesses + "attempts");
   
- var guessDrink = parseInt(guess);
- if (guessDrink === myArr) {
-  alert("🥳 You win! 🎉");
-  break;
-} else if (guessDrink !==myArr) {
-  alert("have another go!");}
+  let guessDrink = (guess);
+  if (myArr.includes(guessDrink)) {
+    alert("🥳 You win! 🎉");
+    break;
+  } else {
+    alert("have another go!");
+  }
 }
