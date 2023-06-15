@@ -43,3 +43,16 @@ for (let i = 2; i >= 0; i--) {
     break;
   }
 }
+
+function dogBreed(){
+    let dogBreed = prompt("What breed is my dog?").toLowerCase();
+    if (dogBreed.toLowerCase() === "Staffordshire Bull Terrier") {
+       alert("Yes, she is")
+    }else if (dogBreed.toLowerCase() === "no") {
+        alert("Bebe is a Staffordshire Bull Terrier")
+    }else {
+        alert("Please enter a dog breed.");
+    }; 
+
+}
+    dogBreed()
