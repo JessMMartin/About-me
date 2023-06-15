@@ -1,6 +1,6 @@
 "use strict";
 
-alert("⭐Welcome to my website⭐");
+alert("🎊⭐Welcome to my website⭐🎊");
 
 let dino = prompt("What is your favourite dinosaur?🦕")
     console.log(dino);
@@ -9,7 +9,7 @@ let dino = prompt("What is your favourite dinosaur?🦕")
 function foodName(){
     let foodName = prompt("Is Gazpacho a Spanish dish? Please answer yes or no only" +"(yes or no)").toLowerCase();
     if (foodName.toLowerCase() === "yes") {
-       alert("Yes, that's right!")
+       alert("Yes, that's right!💃")
     }else if (foodName.toLowerCase() === "no") {
         alert("Actually, it is a cold vegetable spanish soup.🥣")
     }else {
@@ -19,6 +19,42 @@ function foodName(){
 }
     foodName()
 
+function dogBreed(){
+    let dogBreed = prompt("What breed is my dog?🐩").toLowerCase();
+    if (dogBreed === "staffordshire bull terrier") {
+       alert("Yes, she is")
+    }else if (dogBreed !== "staffordshire bull terrier") {
+        alert("Bebe is a Staffordshire Bull Terrier🐕")
+    }; 
+
+}
+    dogBreed()
+
+ function artist(){
+    let artist = prompt("Who is my favorite artist?🎨").toLowerCase();
+    if (artist === "picasso") {
+       alert("Yes, He is!👨‍🎨")
+    }else if (artist !== "picasso") {
+       alert("Actually, it is Pablo Picasso🖌️")
+      
+    }; 
+  
+}
+    artist()
+
+    function nature(){
+      let nature = prompt("What tv do I like to watch?📺").toLowerCase();
+      if (nature === "nature documentaries") {
+         alert("Yes, I love to learn and I find them relaxing!😌")
+      }else if (nature !== "nature documentaries") {
+         alert("No, I love nature documentaries!🌲🐅🌿")
+        
+      }; 
+    
+  }
+      nature()
+
+      
 const number = Math.floor(Math.random() * 10 + 1);
 console.log(number);
 
@@ -43,16 +79,17 @@ for (let i = 2; i >= 0; i--) {
     break;
   }
 }
+var myArr = ["coke", "lilt", "fanta"];
+console.log(myArr)
 
-function dogBreed(){
-    let dogBreed = prompt("What breed is my dog?").toLowerCase();
-    if (dogBreed.toLowerCase() === "Staffordshire Bull Terrier") {
-       alert("Yes, she is")
-    }else if (dogBreed.toLowerCase() === "no") {
-        alert("Bebe is a Staffordshire Bull Terrier")
-    }else {
-        alert("Please enter a dog breed.");
-    }; 
-
+for (let i = 5; i >= 0; i--) {
+  let guesses = i + 1;
+  let guess = prompt("Can you guess one of my fave fizzy drinks?" + guesses + "attempts");
+  
+ var guessDrink = parseInt(guess);
+ if (guessDrink === myArr) {
+  alert("🥳 You win! 🎉");
+  break;
+} else if (guessDrink !==myArr) {
+  alert("have another go!");}
 }
-    dogBreed()
